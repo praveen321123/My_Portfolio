@@ -22,6 +22,7 @@ const RecentProjects = () => {
                 title={item.appTitle}
                 href={item.link}
               >
+                  <Link href={item.link} target="_blank">
                 <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                   <div
                     className="relative w-full h-full overflow-hidden lg:rounded-3xl"
@@ -73,6 +74,7 @@ const RecentProjects = () => {
                     <FaLocationArrow className="ms-3" color="#CBACF9" />
                   </div>
                 </div>
+                </Link>
               </PinContainer>
 
           </div>
